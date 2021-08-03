@@ -23,6 +23,16 @@ const quizData = [
         d: "Dennis Ritchie",
         correct: "b",
     },
+    {
+         question: "Which is generally used for performing tasks like creating, deleting relation?",
+         a:	"DML(Data Manipulation Language)",
+         b:	"Query",
+         c: "Relational Schema",
+         d:	"DDL(Data Definition Language)",
+         answer: "d"
+
+        
+    },
 ];
 
 const quiz = document.getElementById('quiz')
